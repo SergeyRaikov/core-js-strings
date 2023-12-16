@@ -174,7 +174,6 @@ function removeLastOccurrences(str, value) {
     .split(' ')
     .reverse()
     .join(' ');
-  console.log(string);
   return string;
 }
 removeLastOccurrences('To be or not to be', 'be');
